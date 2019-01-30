@@ -1,0 +1,237 @@
+body{
+	font-family: 'Source code pro', calibri, serif;
+	margin: 0px;
+	padding: 0px; 
+    background-color: aliceblue;
+}
+.big h1
+{
+    float: right;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin:32px 100px 10px 0px;
+    color: rgb(000, 160,240);
+    
+}
+nav{
+	width: 500px;
+    height: 65px;
+	background-color: #424558;
+    margin:50px 0 10px 80px;
+    border-radius: 20px;
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+nav li{
+	list-style-type: none;
+}
+.submenu{
+	display: none;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+
+}
+.submenu li {
+	border-bottom: 1px solid #ccc;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 150px;
+}
+
+.menu-css:hover{
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000, 122, 192, 0.15);
+}
+.menu-java:hover{
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000, 122, 192, 0.15);
+}
+}
+.menu-html .submenu{
+	background-color: rgb(000, 160,240);
+}
+.menu-css .submenu{
+	background-color: rgb(000, 160,240);
+}
+.menu-java .submenu{
+	background-color: rgb(000, 160,240);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+.menu-html .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+.menu-css .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+.menu-java .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+
+#fond
+{
+    height: 480px;
+    background: url('tour.jpg') center;
+    border-radius: 3px;
+}
+#fond h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    font-size: 80px;
+    color: white;
+}
+.button-1
+{
+    display: block;
+    height: 50px;
+    width: 120px;
+    background: #424558;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.button-1:hover
+{
+    background: rgb(000, 115, 200);
+}
+#corps
+{
+    margin-top: 50px;
+}
+#belle
+{
+    background:url(imga.jpg) center no-repeat ;
+    height: 400px;
+    width: 100%;
+}
+#belle h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 38px;
+    padding-top: 10px;
+    color: rgb(000, 160,240);
+}
+#lieu p
+{
+  color: #777;
+   line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#lieu h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 35px;
+    color:  rgb(000, 160,240)
+}
+#lieu span
+{
+    color: rgb(000, 160,240);
+    font-size: 20px;
+    font-weight: bold;
+}
+.bloc1
+{
+    text-align: center;
+}
+
+.bloc2
+{
+    text-align: center;
+}
+#contact
+{
+    margin-top: 50px;
+}
+#contact h3
+{
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    width: 500px;
+    border-bottom: 1px solid #02b8dd;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color:  rgb(000, 160,240)
+}
+.ccc
+{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.ccc img
+{
+    margin-right: 35px;
+    margin-left: 20px;
+}
+
+footer
+{
+    height:260;
+    background-color: #424558;
+}
+footer h1
+{
+    text-align: center;
+    padding: 80px;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: rgb(000, 160,240);
+}
+.copyright
+{
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
